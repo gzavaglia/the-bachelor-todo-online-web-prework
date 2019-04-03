@@ -69,8 +69,9 @@ age_array = []
     contestant.each do |key, value|
       
       if key == "age"
+        age = value.to_i 
      binding.pry 
-        age_array[] << value
+        age_array[] << age
         
       end 
     end #contestant do 
