@@ -1,6 +1,6 @@
 require 'pry'
 def get_first_name_of_season_winner(data, season)
-data
+season_data = data[season]
 binding.pry
 end
 
