@@ -74,7 +74,7 @@ count = 0
         age = value.to_i 
         age_total = age_total + age
         count = count + 1 
-        age_average = age_total/count
+        age_average.ceil = age_total/count
         age_average 
        
       end 
