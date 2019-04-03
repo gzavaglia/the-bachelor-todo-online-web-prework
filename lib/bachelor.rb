@@ -16,15 +16,16 @@ end #end get_first_name_of_season_winner
 def get_contestant_name(data, occupation)
   # code here
   name = nil
-  season_data = data[season]
   
-  season_data.each do |contestant|
+  data.each do |season, attributes|
+  attributes.each do |contestant|
     contestant.each do |key, value|
       if value == occupation
         name = contestant["name"]
       end # IF 
     end #end DO 
-  end #end DO 
+  end #end DO
+end #do 
   return name 
 end
 
