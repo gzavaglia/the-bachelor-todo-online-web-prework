@@ -75,6 +75,8 @@ count = 0
         age_total = age_total + age
         count = count + 1 
         age_average = age_total/count
+        age_average.to_f 
+        binding.pry 
       end 
     end #contestant do 
   end # end season do
