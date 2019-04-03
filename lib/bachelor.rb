@@ -53,7 +53,7 @@ def get_occupation(data, hometown)
        if value == hometown
          occupation_array << contestant["occupation"]
          occupation = occupation_array[0]
-         binding.pry 
+          
        end #if 
    end #DO
  end #do 
