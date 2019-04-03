@@ -50,7 +50,7 @@ def get_occupation(data, hometown)
    attributes.each do |contestant|
      contestant.each do |key, value|
        if value == hometown
-         count = count + 1 
+         occupation = contestant["occupation"]
        end #if 
    end #DO
  end #do 
