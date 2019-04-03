@@ -40,7 +40,8 @@ def count_contestants_by_hometown(data, hometown)
        end #if 
    end #DO
  end #do 
- count 
+ end
+ return count
  end 
 
 def get_occupation(data, hometown)
