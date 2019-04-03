@@ -55,7 +55,7 @@ def get_occupation(data, hometown)
    end #DO
  end #do 
  end
- return count
+ return occupation
   
 end
 
