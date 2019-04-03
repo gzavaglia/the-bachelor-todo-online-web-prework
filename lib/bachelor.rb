@@ -70,9 +70,8 @@ age_array = []
       
       if key == "age"
         age = value.to_i 
-     binding.pry 
-        age_array[] << age
-        
+        age_total = age_total + age  
+        binding.pry 
       end 
     end #contestant do 
   end # end season do
