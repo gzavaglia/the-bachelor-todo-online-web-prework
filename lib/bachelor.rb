@@ -1,6 +1,7 @@
+require 'pry'
 def get_first_name_of_season_winner(data, season)
-contestant_data = data[season.intern]
-
+data
+binding.pry
 end
 
 def get_contestant_name(data, occupation)
