@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data, season)
       end 
     end #contestant do 
   end # end season do
-  return namex 
+  return namex[0]
 
 end #end get_first_name_of_season_winner
 
