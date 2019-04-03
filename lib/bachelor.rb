@@ -78,5 +78,5 @@ count = 0
       end 
     end #contestant do 
   end # end season do
-  return age_average
+  return age_average.ceil 
 end
