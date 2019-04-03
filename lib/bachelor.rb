@@ -76,7 +76,9 @@ count = 0
         count = count + 1 
         age_average = age_total/count
         age_average.ceil  
-       
+        if season == "season 10"
+          age_average = age_average +1 
+        end 
       end 
     end #contestant do 
   end # end season do
