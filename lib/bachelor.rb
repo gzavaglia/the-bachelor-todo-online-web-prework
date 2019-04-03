@@ -33,6 +33,14 @@ def count_contestants_by_hometown(data, hometown)
  count = 0 
  city = nil 
  data.each do |season, attributes|
+   attributes.each do |contestant|
+     contestant.each do |key, value|
+       if value == hometown
+         count = count + 1 
+         binding.pry 
+       end #if 
+   end #DO
+ end #do 
  binding.pry 
  end 
  
