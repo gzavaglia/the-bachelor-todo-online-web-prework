@@ -74,9 +74,9 @@ count = 0
         age = value.to_i 
         age_total = age_total + age
         count = count + 1 
-        binding.pry 
+        age_average = age_total/count
       end 
     end #contestant do 
   end # end season do
-  return namex[0]
+  return age_average
 end
