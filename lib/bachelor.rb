@@ -1,5 +1,6 @@
 require 'pry'
 def get_first_name_of_season_winner(data, season)
+  namex = nil 
   season_data = data[season]
   season_data.each do |contestant|
     contestant.each do |key, value|
