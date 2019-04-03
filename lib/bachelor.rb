@@ -51,7 +51,7 @@ def get_occupation(data, hometown)
      contestant.each do |key, value|
        if value == hometown
          name = contestant["name"]
-         seasons = season 
+         seasons = season
          occupation = contestant["occupation"]
          binding.pry 
        end #if 
