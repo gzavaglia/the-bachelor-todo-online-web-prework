@@ -45,12 +45,14 @@ def count_contestants_by_hometown(data, hometown)
  end 
 
 def get_occupation(data, hometown)
-  occupation = nil 
+  occupation = nil
+  occupation_array = []
    data.each do |season, attributes|
    attributes.each do |contestant|
      contestant.each do |key, value|
        if value == hometown
-         occupation = contestant["occupation"]
+         occupation_array << contestant["occupation"]
+         occupation = occupation_array[0]
          binding.pry 
        end #if 
    end #DO
