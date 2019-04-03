@@ -67,9 +67,9 @@ age_average = 0
 age_array = []
   season_data.each do |contestant|
     contestant.each do |key, value|
-      binding.pry 
+      
       if key == "age"
-     
+     binding.pry 
         age_array[] << value
         
       end 
