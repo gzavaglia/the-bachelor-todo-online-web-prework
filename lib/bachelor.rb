@@ -72,7 +72,8 @@ count = 0
       
       if key == "age"
         age = value.to_i 
-        age_total = age_total + age  
+        age_total = age_total + age
+        count = count + 1 
         binding.pry 
       end 
     end #contestant do 
